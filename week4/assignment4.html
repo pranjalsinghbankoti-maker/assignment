@@ -7,7 +7,7 @@
 </head>
 <body>
   <div>
-    <form action="action.php" class="form">
+    <form action="action.html" class="form">
       <center>
         <h1><u>Student registration form</u></h1>
     </center>
@@ -15,16 +15,16 @@
         <input
         type="text"
         name="name"
-        placeholder="   enter the name  ">
-      <required>
+        placeholder="   enter the name  " required>
+      
    
 <br><br>
 <lable  for="email"> Email:</lable>
         <input
         type="email"
         name="email"
-        placeholder="   enter the email ">
-      <required> <br><br>
+        placeholder="   enter the email " required>
+      <br><br>
         <lable  for="Passward"> Password:</lable>
         <input
         type="password"
@@ -35,8 +35,8 @@
         <input
         type="tel"
         name="phone"
-        placeholder="   enter the contect number  ">
-      <required>
+        placeholder="   enter the contect number  "
+      required>
 
         <br><br>
 
@@ -44,17 +44,17 @@
         <input
         type="date"
          name="dob"
-        placeholder="   enter your dob  "> 
-      <required>
+        placeholder="   enter your dob  "
+      required>
 
         <br>
         
         <p> <b>Gender:</b></p>
-   <label>
+   <label required>
     <input
     type="radio"
     name="Gender"
-    value="Male">Male:
+    value="Male" >Male:
    </label>
    <label>
    <input
@@ -70,7 +70,7 @@
     <input
     type="checkbox"
     name="SkilLS"
-    value="Html">Html:
+    value="Html" >Html:
    </label>
    <label>
     <input
@@ -92,7 +92,7 @@
    </label>
    <br><br>
    <label for="course"><b>Branch:</b></label>
-   <select name="course">
+   <select name="course" required>
     
     <option value="B.tech">B.tech:</option>
     <option value="BCA">BCA:</option>
@@ -106,10 +106,12 @@
   <textarea
   name="reason"
   row="3"
-  cols="50">
+  cols="50" required>
   </textarea>
   <br><br>
+  <center>
   <button type="Register">Register</button>
+  </center>
   </div>
   <br>
   <footer>
