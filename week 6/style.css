@@ -1,7 +1,8 @@
+
 #box1{
     background-color: rgb(67, 53, 163);
     height: 50px;
-    border-radius: 10px;
+    border-radius: 30px;
     align-content: center;
     text-align: center;
     font-size: large;
@@ -15,14 +16,15 @@
    
 }
 #box2{
+    align-content: center;
     text-align: center;
     background-color:rgb(138, 14, 187);
     border:2px ;
-    height: 40px;
+    height: 50px;
     padding: 25px;
     border-radius: 50%;
     width: 50px;
-    font-size:x-large ;
+    font-size:50px ;
 }
 #box3{
     border: 2px solid black;
@@ -30,4 +32,21 @@
     border-radius: 20px;
     overflow: auto;
     height: 80px;
+}
+#box4{
+    display: flex;
+    justify-content: center;
+    align-content:center;
+    background-color:rgb(248, 205, 13);
+    border:2px ;
+    height: 90px;
+    padding: 28px;
+    border-radius: 50%;
+    width: 90px;
+   font-size: 50px;
+   font-weight: bold;
+   position: fixed;
+   bottom: 20px;
+   right: 20px;
+
 }
