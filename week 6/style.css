@@ -24,3 +24,10 @@
     width: 50px;
     font-size:x-large ;
 }
+#box3{
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 20px;
+    overflow: auto;
+    height: 80px;
+}
