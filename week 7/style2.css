@@ -26,3 +26,13 @@
     display: flex;
     gap: 30px;
 }
+#o{
+    background-color: gold;
+    border-radius: 25px;
+    width: 80px;
+    height:100p ;
+    margin-top: 20px;
+}
+.box3{
+   
+}
