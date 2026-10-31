@@ -16,4 +16,37 @@
 .side {
     background: linear-gradient(135deg, #60a5fa, #a78bfa) !important;
 }
+body {
+    margin: 20px;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #f8fafc, #e0e7ff);
+}
+
+.browser {
+    max-width: 960px;
+    margin: 0 auto;
+    overflow: hidden;
+    border: 2px solid #e2e8f0;
+    border-radius: 12px;
+    background: #edf2f8;
+    box-shadow: 0 12px 30px rgba(19, 33, 59, 0.18);
+}
+
+.browser-bar {
+    height: 38px;
+    padding: 10px 16px;
+    background: #e7edf5;
+}
+
+.dot {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin-right: 5px;
+    border-radius: 50%;
+}
+
+.red { background: #ff5f57; }
+.yellow { background: #febc2e; }
+.green { background: #28c840; }
 
