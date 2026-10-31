@@ -122,3 +122,36 @@ body {
     background: linear-gradient(135deg, #0369a1, #06b6d4);
     box-shadow: 0 7px 17px rgba(3, 105, 161, 0.32);
 }
+
+.feature-card:nth-child(2):hover {
+    box-shadow: 0 11px 22px rgba(3, 105, 161, 0.42);
+}
+
+.feature-card:nth-child(3) {
+    background: linear-gradient(135deg, #be123c, #f97316);
+    box-shadow: 0 7px 17px rgba(190, 18, 60, 0.32);
+}
+
+.feature-card:nth-child(3):hover {
+    box-shadow: 0 11px 22px rgba(190, 18, 60, 0.42);
+}
+
+.feature-card h2 {
+    margin: 0 0 3px;
+    font-size: 14px;
+}
+
+.feature-card p {
+    margin: 0;
+    color: rgba(255, 255, 255, 0.92);
+    font-size: 12px;
+    line-height: 1.35;
+}
+
+.site-footer {
+    padding: 14px 16px;
+    color: #fff;
+    font-size: 13px;
+    text-align: center;
+    background: linear-gradient(110deg, #065f46, #0284c7 55%, #4f46e5);
+}
