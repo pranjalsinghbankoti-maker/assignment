@@ -50,3 +50,44 @@ body {
 .yellow { background: #febc2e; }
 .green { background: #28c840; }
 
+.dashboard {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-areas:
+        "head head"
+        "side main"
+        "foot foot";
+    gap: 10px;
+    padding: 10px;
+}
+
+.head {
+    grid-area: head;
+    min-height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background: linear-gradient(135deg, #13213b, #263f68);
+    border-radius: 9px;
+    box-shadow: 0 5px 12px rgba(19, 33, 59, 0.2);
+}
+
+.head h1 {
+    margin: 0;
+}
+
+.side {
+    grid-area: side;
+    min-height: 235px;
+    padding: 15px;
+    color: #172554;
+    background: linear-gradient(135deg, #dbeafe, #c4b5fd);
+    border-radius: 9px;
+    box-shadow: 0 5px 14px rgba(79, 70, 229, 0.2);
+}
+
+.side h2 {
+    margin: 0 0 8px;
+    font-size: 20px;
+}
