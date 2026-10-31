@@ -33,6 +33,41 @@
     height:100p ;
     margin-top: 20px;
 }
-.box3{
-   
+.box4{
+   display: flex;
+   justify-content:space-between;
+  
+}
+#html{
+    background-color: aquamarine;
+    border-radius: 10px;
+    text-align: center;
+    width: 200px;
+    padding: 20px;
+     margin-left: 10px;
+}
+#css{
+    background-color: aquamarine;
+    border-radius: 10px;
+    text-align: center;
+    width: 200px;
+    padding: 20px; 
+     margin-left: 10px;
+}
+#js{
+    background-color: aquamarine;
+    border-radius: 10px;
+    text-align: center;
+    width: 200px;
+    padding: 20px; 
+     margin-left: 10px;
+
+}
+#git{
+        background-color: aquamarine;
+    border-radius: 10px;
+    text-align: center;
+    width: 200px;
+    padding: 20px; 
+    margin-left: 10px;
 }
