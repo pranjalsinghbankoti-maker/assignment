@@ -127,3 +127,27 @@ body {
 .icon {
     font-size: 30px;
 }
+
+.foot {
+    grid-area: foot;
+    min-height: 125px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 12px;
+    color: white;
+    background: linear-gradient(135deg, #13213b, #263f68);
+    border-radius: 9px;
+    box-shadow: 0 5px 12px rgba(19, 33, 59, 0.2);
+}
+
+@media (max-width: 600px) {
+    .dashboard {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "head"
+            "side"
+            "main"
+            "foot";
+    }
+} 
